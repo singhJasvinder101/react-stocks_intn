@@ -59,7 +59,7 @@ h3 {
       position: absolute;
       bottom: -5%;
       left: 30%;
-      background: #06817bb0;
+      background: #A353A3;
       width: 40%;
       height: 30px;
       z-index: -1;

@@ -96,7 +96,7 @@ const Search = () => {
   return (
     <StyledSearch>
       <div className='wrapper'>
-        <h1>Stock Tracker </h1>
+        <h1 className='violet'>Stock Tracker </h1>
         <form onSubmit={showData} className='search-form'>
           <div className='input-wrapper'>
             <input

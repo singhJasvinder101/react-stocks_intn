@@ -35,8 +35,8 @@ const Table = ({ prices, symbol, closingPrice, xAxisValues }) => {
       {
         label: 'Closing Prices ($)',
         data: closingPrice,
-        backgroundColor: 'rgba(75, 192, 192, 1)',
-        borderColor: 'rgba(75, 192, 192, 1)',
+        backgroundColor: '#A353A3',
+        borderColor: '#A353A3',
         borderWidth: 1,
       },
     ],

@@ -1,0 +1,22 @@
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.violet{
+    color: #A353A3;
+}
+
+input{
+    outline: none;
+    border: 1px solid #A353A3 !important;
+}
+
+button{
+    background-color: #A353A3 !important;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}

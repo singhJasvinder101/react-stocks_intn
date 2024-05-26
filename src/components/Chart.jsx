@@ -40,7 +40,7 @@ const StyledChart = styled.div`
   h3 {
     &:before {
       left: 0%;
-      background: #e975fd7b;
+      background: #A353A3;
       width: 100%;
     }
   }

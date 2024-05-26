@@ -1,8 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Search from '../components/Search'
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
+
 
 const home = () => {
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        const isAuthenticated = !!localStorage.getItem("user");
+        if (!isAuthenticated) {
+            navigate("/login");
+        } 
+    }, [navigate]);
+
     return (
         <StyledHome>
             <Search />
